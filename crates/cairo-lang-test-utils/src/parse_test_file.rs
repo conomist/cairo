@@ -129,7 +129,6 @@ impl TestBuilder {
                 self.current_test_name.as_ref().unwrap_or(&"<unknown>".into())
             );
             attributes.insert(tag.name, tag.content.trim().to_string());
-            self.current_tag = None;
         }
     }
 
